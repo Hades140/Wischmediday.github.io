@@ -72,12 +72,9 @@
  
     
 
-    <button class=" bestellen">
-        Bestellen
+    <button class=" kaufen">
+        Kaufen
         </button>
-
-
-
       </div>
     </section>
 
@@ -131,7 +128,7 @@
 
     </section>
 
-
+                                          
     <script>
       function showhome() {
         var HomeSection = document.querySelector(".home")
@@ -141,13 +138,13 @@
         var KaufenSection = document.querySelector(".kaufen")
         KaufenSection = document.style.display = "none"
       }
-
+      
 
       function showkundenmeinungen() {
         var HomeSection = document.querySelector(".home")
         HomeSection.style.display = "none"
         var KundenmeinungenSection = document.querySelector(".kundenmeinungen")
-        KundenmeinungenSection.style.display = "flex"
+        KundenmeinungenSection=document.style.display = "flex"
         var KaufenSection = document.querySelector(".kaufen")
         KaufenSection = document.style.display = "none"
       }
